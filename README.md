@@ -12,13 +12,13 @@ For run this project on a local machine:
 
  # Endpoint:
  
-  /rest/v1/calendar/init/ -> GoogleCalendarInitView()
+        /rest/v1/calendar/init/ -> GoogleCalendarInitView()
 
 
-        This view should start step 1 of the OAuth. Which will prompt user for his/her credentials
+      This view should start step 1 of the OAuth. Which will prompt user for his/her credentials
 
 
-  /rest/v1/calendar/redirect/ -> GoogleCalendarRedirectView()
+      /rest/v1/calendar/redirect/ -> GoogleCalendarRedirectView()
 
  # This view will do two things
 
